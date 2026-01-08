@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsgo -p tsconfig.check.json; npx biome lint ..."
-  },
+  },  <-- THIS COMMA MUST BE HERE
   "dependencies": {
 
     "@hookform/resolvers": "^5.2.2",
